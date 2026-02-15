@@ -1,0 +1,17 @@
+name: vocalize_remind
+description: Voice First Reminder App
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.8.5
+  android_alarm_manager_plus: ^3.0.4
+  shared_preferences: ^2.2.2
+  wakelock_plus: ^1.1.4
+
+flutter:
+  uses-material-design: true
